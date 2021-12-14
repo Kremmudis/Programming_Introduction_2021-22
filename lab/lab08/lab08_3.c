@@ -13,11 +13,11 @@ int s_count(const char str[], char ch){
 }
 
 int main(){
-	char s[50];
-	char c;
+	char s[50], c;
 	
 	printf("Δώσε το string (μέχρι 50 λατινικούς χαρακτήρες):");
 	scanf("%s",s);
+	
 	printf("Δώσε τον χαρακτήρα για έλεγχο : ");
 	scanf(" %c",&c);
 	
